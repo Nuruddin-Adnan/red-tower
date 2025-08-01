@@ -1,0 +1,226 @@
+/*=== abstracts css start === */
+/*===// end of abstracts css === */
+/*=== base css start === */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+::after, ::before {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1400) {
+  .container {
+    max-width: 1280px;
+  }
+}
+/*===// end of base css === */
+/*=== components css start === */
+/*===// end of components css === */
+/*=== layout css start === */
+.header {
+  color: #2a2a2a;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    background-color: #F3F4F6;
+  }
+}
+@media (max-width: 767px) {
+  .navbar .navbar-brand {
+    max-width: 160px;
+  }
+}
+@media (max-width: 400px) {
+  .navbar .navbar-brand {
+    max-width: 130px;
+  }
+}
+.navbar .nav-link {
+  color: #2a2a2a;
+  font-weight: 600;
+}
+.navbar .nav-link:hover {
+  text-decoration: underline;
+}
+.navbar .call-to-action {
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  .navbar .call-to-action .number {
+    font-size: 1.5rem;
+  }
+}
+
+.offcanvas {
+  background-color: #fff;
+}
+
+.footer {
+  padding: 80px 0;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  .footer {
+    padding: 40px 0;
+  }
+}
+.footer .footer-menu .menu-heading-title {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.footer .footer-menu .nav-link {
+  transition: all 0.2s linear;
+  opacity: 0.8;
+}
+@media (min-width: 767px) {
+  .footer .footer-menu .nav-link {
+    padding-block: 0.12rem;
+  }
+}
+.footer .footer-menu .nav-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+.footer .copyright {
+  padding: 0 0 10px 0;
+}
+.footer .copyright .social-nav {
+  display: flex;
+  justify-content: center;
+}
+.footer .copyright .social-nav a {
+  margin: 5px;
+  display: grid;
+  place-items: center;
+  border-radius: 100%;
+  color: #fff;
+  background-color: black;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  transition: all 0.2s linear;
+}
+.footer .copyright .social-nav a:hover {
+  background-color: #b13f2b;
+}
+.footer .copyright .social-nav a i {
+  font-size: 1.25rem;
+}
+
+/*===// end of layout css === */
+/*=== pages start === */
+.gray-box {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f2f2ef;
+  border-radius: 8px;
+}
+
+.banner h1 {
+  font-weight: bold;
+}
+
+.services .service-item .text {
+  padding: 30px;
+}
+.services .service-item h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+@media (min-width: 992px) {
+  .services .service-item h3 {
+    font-size: 36px;
+  }
+}
+.services .service-item p {
+  font-size: 1rem;
+  color: black;
+  line-height: 1.5;
+}
+.services .service-item .more-info-btn {
+  font-size: 1rem;
+  font-family: "HelveticaNeueBold", sans-serif;
+  color: black;
+  text-decoration: none;
+}
+.services .service-item .more-info-btn:hover {
+  color: red;
+}
+
+.storage-unit-pricing .icon-cyan {
+  width: 24px;
+  height: 24px;
+  background-color: #6ca6f6;
+  border-radius: 100%;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  padding-top: 2px;
+}
+.storage-unit-pricing .icon-blue {
+  width: 24px;
+  height: 24px;
+  background-color: #193d8e;
+  border-radius: 100%;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  padding-top: 2px;
+}
+.storage-unit-pricing .icon-gray {
+  width: 24px;
+  height: 24px;
+  background-color: #aaaaaa;
+  border-radius: 100%;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  padding-top: 2px;
+  font-weight: bold;
+}
+.storage-unit-pricing .icon-green {
+  width: 24px;
+  height: 24px;
+  background-color: #198754;
+  border-radius: 100%;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  padding-top: 2px;
+  font-weight: bold;
+}
+.storage-unit-pricing .select-btn {
+  background-color: #193d8e;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.25rem;
+  width: 100%;
+  min-width: 150px;
+  padding-block: 0.65rem;
+}
+.storage-unit-pricing .select-btn:hover {
+  background-color: orange;
+  color: #000;
+}
+
+/*===// end of pages  === *//*# sourceMappingURL=style.css.map */

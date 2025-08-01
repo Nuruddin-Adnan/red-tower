@@ -1,0 +1,42 @@
+.header {
+  color: #2a2a2a;
+}
+
+.navbar {
+  @media (max-width: 767px) {
+    background-color: #F3F4F6;
+  }
+
+  .navbar-brand {
+    @media (max-width: 767px) {
+      max-width: 160px;
+    }
+    @media (max-width: 400px) {
+      max-width: 130px;
+    }
+  }
+
+  .nav-link {
+    color: #2a2a2a;
+    font-weight: 600;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .call-to-action {
+    font-weight: bold;
+
+    .number {
+      @media (min-width: 768px) {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+// Optional styling for mobile offcanvas
+.offcanvas {
+  background-color: #fff;
+}
